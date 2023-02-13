@@ -1,0 +1,47 @@
+{
+  "project": {
+    "metadata": {
+      "annotations": {
+        "squad": "cd",
+        "cluster": "cd-prd"
+      },
+      "clusterName": "string",
+      "finalizers": [
+        "string"
+      ],
+      "generateName": "string",
+      "labels": {
+        "property1": "string",
+        "property2": "string"
+      },
+      "name": "conta4",
+      "namespace": "argocd"
+    },
+    "spec": {
+      "clusterResourceWhitelist": [
+        {
+          "group": "*",
+          "kind": "*"
+        }
+      ],
+      "description": "para conta digital",
+      "destinations": [
+        {
+          "name": "*",
+          "namespace": "*",
+          "server": "*"
+        }
+      ],
+      "namespaceResourceWhitelist": [
+        {
+          "group": "*",
+          "kind": "*"
+        }
+      ],
+      "sourceRepos": [
+        "*"
+      ]
+    }
+  },
+  "upsert": true
+}
