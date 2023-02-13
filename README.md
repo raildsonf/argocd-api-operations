@@ -13,5 +13,5 @@ $ argocd account generate-token
 
 ## Create a project:
 ```bash
-$curl -k -X POST https://argocd.com.br/api/v1/projects -H "Content-Type: application/json" -H "Authorization: Bearer $ARGOCD_TOKEN" -d @project.json
+$ curl -k -X POST https://argocd.com.br/api/v1/projects -H "Content-Type: application/json" -H "Authorization: Bearer $ARGOCD_TOKEN" -d @project.json
 ```
