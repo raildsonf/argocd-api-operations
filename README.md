@@ -1,4 +1,5 @@
 1. Generate token:
+
 k edit configmap argocd-cm -n argocd
 ```data:
      accounts.admin: apiKey
